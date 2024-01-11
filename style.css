@@ -1,0 +1,157 @@
+@font-face {
+    font-family: sh-pinscher;
+    src: url("SHPinscher-Regular.otf") format("opentype");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: sh-pinscher;
+    background-color:#333131;
+}
+
+main{
+    width: 60%;
+    height: 100vh;
+    background-color: #008282;
+    margin: auto;
+    position: relative;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #c3c3c3;
+    position: absolute;
+    bottom: 0px;
+    border-top: #e7e7e7 solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div:nth-child(1){
+    display: flex;
+}
+
+.button {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-top: 3px #e7e7e7 solid;
+    border-left: 3px #e7e7e7 solid;
+    border-bottom: 3px black solid;
+    border-right: 3px black solid;
+    height: 30px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.welcome{
+    width: 350px;
+    border-bottom: 3px #e7e7e7 solid;
+    border-right: 3px #e7e7e7 solid;
+    border-top: 3px black solid;
+    border-left: 3px black solid;
+}
+
+.start img {
+    width: 40px;
+}
+
+.x {
+    width: 85px;
+}
+
+.time {
+    margin: 5px;
+    padding: 5px;
+    font-size: 24px;
+    width: fit-content;
+    border-bottom: 3px #e7e7e7 solid;
+    border-right: 3px #e7e7e7 solid;
+    border-top: 3px grey solid;
+    border-left: 3px grey solid;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 150px);
+    grid-template-rows: repeat(6, 150px);
+    grid-auto-flow: column;
+}
+
+.link span {
+    display: block;
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.link img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.link div{
+    text-align: center;
+    width: 69%;
+    color: white;
+}
+
+.about span{
+    height: 103px;
+}
+
+.projects-window {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    background-color:#c3c3c3;
+    top: 0px;
+    border: #e7e7e7 4px solid;
+    display: none;
+}
+
+.window-header {
+    width: 100%;
+    height: 30px;
+    background-color: #000082;
+    display: flex;
+    cursor: move;
+    justify-content: space-between;
+}
+
+.header-name{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.close-button-container {
+    width: 16px;
+    height: 16px;
+    background-color: #c3c3c3;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-top: 3px #e7e7e7 solid;
+    border-left: 3px #e7e7e7 solid;
+    border-bottom: 3px black solid;
+    border-right: 3px black solid;
+    cursor: pointer;
+}
+
+.close-button-container span {
+    position: absolute;
+    top: 3px;
+    right: 3.7px;
+}
+
+
