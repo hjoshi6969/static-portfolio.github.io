@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="script.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
 </head>
 <body>
     <main id="main">
@@ -41,7 +42,7 @@
                 </div>
             </div>
         </nav>
-        <div class="projects-window" id="A">
+        <div class="projects-window" id="A"  style="display: none;">
             <div class="window-header" id="B">
                 <div class="header-name">Projects</div>
                 <div class="close-button-container">
@@ -50,14 +51,128 @@
                     </span>
                 </div>
             </div>
+            <div class="project-content">
+                <div class="project">
+                    <div class="img-container">
+                        <img src="CMS.jpg" alt="" srcset="">
+                    </div>
+                    <div class="info">
+                        <div class="info-container">
+                            <div class="name">CMS(content management system)</div>
+                            <div class="description">In this website i created a system to create an ad 
+                                for a product or even a service people could commnet on the posts and they could even sign up
+                                and post ads themselves. There was one admin who could control everything on the site.
+                            </div>
+                            <div class="skills">{HTML, CSS, PHP, MySQL}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="img-container">
+                        <img src="React.png" alt="" srcset="">
+                    </div>
+                    <div class="info">
+                        <div class="info-container">
+                            <div class="name">React Portfolio</div>
+                            <div class="description">In this Project I created a portfolio with React. Moreover I Created a backend 
+                                using Node JS, express and CORS to establish dataflow, In The backend, I created API to GET and POST data.
+                            </div>
+                            <div class="skills">{HTML, CSS, ReactJS, Express, CORS, MySQL}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="img-container">
+                        <img src="hj.css.logo.png" alt="" srcset="">
+                    </div>
+                    <div class="info">
+                        <div class="info-container">
+                            <div class="name">CSS Package(<i>Under Devolopement</i>)</div>
+                            <div class="description">In this Project I am trying to create a Package like bootstrap just to get a better understanding 
+                                about web designs. This Project will be avalable for public soon.
+                            </div>
+                            <div class="skills">{CSS}</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project">
+                    <div class="img-container">
+                        <img src="CMS.jpg" alt="" srcset="">
+                    </div>
+                    <div class="info">
+                        <div class="info-container">
+                            <div class="name">CMS(content management system)</div>
+                            <div class="description">In this website i created a system to create an ad 
+                                for a product or even a service people could commnet on the posts and they could even sign up
+                                and post ads themselves. There was one admin who could control everything on the site.
+                            </div>
+                            <div class="skills">{HTML, CSS, PHP, MySQL}</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
         </div>
-        <div class="projects-window" id="C">
+        <div class="projects-window" id="C" style="display: none;">
             <div class="window-header" id="D">
                 <div class="header-name">Skills</div>
                 <div class="close-button-container">
                     <span class="material-symbols-outlined" id="s-close">
                         close
                     </span>
+                </div>
+            </div>
+            <div class="skills-content">
+                <div class="content">
+                    <div class="i-5" id="one">C: /user/himan/desktop/skills/> Retriving Data From skills.json....</div>
+                    <div class="i-5" id="two">Encoding the res.json....</div>
+<pre id="three">
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+</pre>
+                    <div class="i-5" id="four">Successufly Endoced the data....</div>
+                    <div class="i-5" id="five">Displaying the data....</div>
+                    <div class="json" id="json-data">
+<pre id="six">
+    {
+        "Front end" : [
+            "HTML",
+            "CSS",
+            "JS",
+            "React JS",
+            "bootstrap",
+            "Tailwind CSS",
+            "GSAP"
+        ],
+        "Back end" : [
+            "Node JS",
+            "JAVA",
+            "Python",
+            "Express",
+            "CORS",
+            "MySQL",
+            "PostgreSQL",
+            "PHP"
+        ]
+        "Others" : [
+            "Figma",
+            "Desigining",
+            "Canva"
+        ]
+
+    }
+</pre>
+<div class="i-5" id="seven">C: /user/himan/desktop/skills/> <span class="blinker"> |</span></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,6 +184,20 @@
                         close
                     </span>
                 </div>
+            </div>
+            <div class="about-me-container">
+                <img src="about-me.jpg" alt="" class="about-me-img">
+                My name is Himanshu Joshi, and I am a web developer. I was born in a small town in Bharat (India). My childhood was great until I turned nine years old, as that was the time I suffered from a brain disease. Consequently, I had to take medicines for six years, turning me into a cute but overweight child. <br><br>
+
+                When I turned ten, my father sadly passed away in a tragic incident, completely turning my life upside down. Upon joining high school, I found myself overweight and struggling academically, ranking second to last in the entire school.<br><br>
+                
+                In the 10th standard, I joined the gym, started boxing and dancing, and things began to improve. I got in shape and even had my first girlfriend (who, by the way, was lovely). However, despite these positive changes, I realized I was still struggling academically when I entered the 11th standard.<br><br>
+                
+                Then, a challenging situation arose — my girlfriend and I broke up due to personal confusion. This triggered a familiar cycle; I gained weight again, not due to medication but fast food. I felt down, and to make matters worse, I nearly failed the first term of my 12th standard with only 10 days left for the final exams. I hadn't studied at all, and the idea of repeating the class crossed my mind.<br><br>
+                
+                In that dramatic situation, someone shared something about me that changed my mindset. I started thinking rationally and realized I needed to score 80/100 to be eligible to apply to a college in Canada (a dream destination for my studies). With just seven days left, I dedicated myself to preparing for the finals and managed to score 79/100. Fortunately, I got accepted into the RRC, where I am currently scoring A+ in all my subjects and making positive decisions in my life.<br><br>
+                
+                However, I must admit that I still carry a few extra pounds ☹️.
             </div>
         </div>
     </main>

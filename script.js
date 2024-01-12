@@ -32,6 +32,7 @@ function openCloseProjects() {
 function openCloseSkills() {
     document.getElementById("skills").addEventListener("dblclick", () => {
         document.getElementById('C').style.display = "block"
+        skillsCMD()
     })
 
     document.getElementById("s-close").addEventListener("click", () => {
@@ -48,6 +49,34 @@ function openCloseAbout() {
         document.getElementById('E').style.display = "none"
     })
 }
+
+function skillsCMD() {
+    document.querySelector('#one').style.opacity = 1;
+    setTimeout(function() {
+        document.querySelector('#two').style.opacity = 1;
+    }, 600);
+    
+    setTimeout(function() {
+        document.querySelector('#three').style.opacity = 1;
+    }, 1600);
+    
+    setTimeout(function() {
+        document.querySelector('#four').style.opacity = 1;
+    }, 2000);
+    
+    setTimeout(function() {
+        document.querySelector('#five').style.opacity = 1;
+    }, 2400);
+    
+    setTimeout(function() {
+        document.querySelector('#six').style.opacity = 1;
+    }, 3700);
+    
+    setTimeout(function() {
+        document.querySelector('#seven').style.opacity = 1;
+    }, 3800);
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     dragAbout("A", "B")
     dragAbout("C", "D")

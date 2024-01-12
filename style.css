@@ -114,7 +114,7 @@ section {
     background-color:#c3c3c3;
     top: 0px;
     border: #e7e7e7 4px solid;
-    display: none;
+    display: block;
 }
 
 .window-header {
@@ -154,4 +154,112 @@ section {
     right: 3.7px;
 }
 
+.project-content {
+    margin: auto;
+    width: 98%;
+    height: 90%;
+    margin-top: 10px;
+    background-color: #c3c3c3;
+    border-top: 3px #e7e7e7 solid;
+    border-left: 3px #e7e7e7 solid;
+    border-bottom: 3px black solid;
+    border-right: 3px black solid;
+    overflow: scroll;
+}
 
+.project{
+    width: 98%;
+    min-height: 130px;
+    background-color: #c3c3c3;
+    border-top: 3px #e7e7e7 solid;
+    border-left: 3px #e7e7e7 solid;
+    border-bottom: 3px black solid;
+    border-right: 3px black solid;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+}
+
+.img-container{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img{
+    width: 200px;
+    height: 100px;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.description {
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.info{
+    padding: 5px;
+    width: 100%;
+    flex: 2;
+}   
+
+.skills-content {
+    width: 100%;
+    margin-top: 5px;
+    height: 92%;
+    background-color:#000000;
+}
+
+.skills-content {
+    color: white;
+    overflow: scroll;
+}
+
+
+@keyframes blink {
+    0%, 49.9% {
+      opacity: 1;
+    }
+    50%, 100% {
+      opacity: 0;
+    }
+}
+  
+.blinker {
+    animation: blink 1s infinite; /* Adjust the animation duration as needed */
+}
+
+
+.i-5 {
+    padding: 5px;
+}
+
+.json pre{
+    color: rgb(61, 255, 61);
+}
+
+#one, #two, #three, #four, #five, #six, #seven {
+    opacity: 0;
+}
+
+.about-me-container{
+    margin: 10px;
+    height: 89%;
+    border-top: 3px #e7e7e7 solid;
+    border-left: 3px #e7e7e7 solid;
+    border-bottom: 3px black solid;
+    border-right: 3px black solid;
+    overflow: scroll;
+    font-size: 22px;
+}
+
+.about-me-img {
+    width: 200px;
+    float: left;
+    margin: 5px;
+}
