@@ -265,9 +265,30 @@ section {
     margin: 5px;
 }
 
+main {
+    display: none;
+}
 
-@media (max-width: 893px) {
+.loading-screen {
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+    background-color: #000082;
+}
+
+.loading-screen img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width: 1000px) {
     main {
         width: 100%;
     }
+
+    .loading-screen {
+        width: 100%;
+    }
 }
+

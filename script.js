@@ -77,7 +77,19 @@ function skillsCMD() {
     }, 3800);
 }
 
+function loading() {
+    let main = document.getElementById("main")
+    main.style.display = "block"
+
+    document.getElementById('l').style.display = "none"
+
+    let audio = new Audio('Windows-98-startup-sound.mp3');
+    audio.play();
+}
+
 document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(loading, 5000);
+
     dragAbout("A", "B")
     dragAbout("C", "D")
     dragAbout("E", "F")
