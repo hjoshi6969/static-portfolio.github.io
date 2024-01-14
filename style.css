@@ -218,6 +218,7 @@ section {
 .skills-content {
     color: white;
     overflow: scroll;
+    font-size: 18px;
 }
 
 
@@ -262,4 +263,11 @@ section {
     width: 200px;
     float: left;
     margin: 5px;
+}
+
+
+@media (max-width: 893px) {
+    main {
+        width: 100%;
+    }
 }
