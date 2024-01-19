@@ -80,6 +80,7 @@ function skillsCMD() {
 function loading() {
     let audio = new Audio('Windows-98-startup-sound.mp3');
     audio.play();
+    
     let main = document.getElementById("main")
     main.style.display = "block"
 
@@ -87,8 +88,9 @@ function loading() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(loading, 5000);
-
+    let main = document.getElementById("main")
+    main.style.display = "block"
+    document.getElementById('l').style.display = "none"
     dragAbout("A", "B")
     dragAbout("C", "D")
     dragAbout("E", "F")

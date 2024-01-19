@@ -107,6 +107,17 @@ section {
     height: 103px;
 }
 
+.world span{
+    height: 103px;
+    padding: 7px;
+}
+
+.world div{
+    text-align: center;
+    width: 73%;
+    color: white;
+}
+
 .projects-window {
     position: absolute;
     width: 700px;
