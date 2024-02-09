@@ -301,5 +301,18 @@ main {
     .loading-screen {
         width: 100%;
     }
+
+    .projects-window {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .welcome {
+        display: none;
+    }
+
+    .x {
+        width: 60px;
+    }
 }
 
